@@ -1,0 +1,43 @@
+*{
+	box-sizing: border-box;
+}
+
+.header{
+	background:  linear-gradient(to right, #ffffcc 1%, #cc33ff 100%);
+	color: gold;
+	text-align: center;
+	padding: 20px;
+	font-size: 36px;
+}
+body{
+	font-family: MonoLisa;
+	margin: 0;
+}
+.navigation{
+	display: flex; 
+	background-color: #a653ec;	
+}
+.navigation a{
+	text-decoration: none;
+	color: white;
+	padding: 15px 20px;
+}
+.navigation a:hover{
+	background-color: grey;
+	color: #735184;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.left{
+	flex: 30%;
+	background-color: lime;
+	padding: 20px;
+}
+.right{
+	flex: 70%;
+	background-color: grey;
+	padding: 20px;
+}
